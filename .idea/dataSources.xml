@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="ihrm@localhost" uuid="e629666f-5409-498c-824a-fb34778ed43d">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>ihrm</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/ihrm</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="UTC" />
+        <property name="useSSL" value="false" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
