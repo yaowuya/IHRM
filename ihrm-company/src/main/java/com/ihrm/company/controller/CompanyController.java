@@ -60,7 +60,8 @@ public class CompanyController {
     /**
      * 获取企业列表
      */
-    @RequestMapping(value = "", method = RequestMethod.GET)
+//    @RequestMapping(value = "", method = RequestMethod.GET)
+    @GetMapping(value = "")
     public Result findAll() throws Exception {
         List<Company> companyList = companyService.findAll();
         return new Result(ResultCode.SUCCESS, companyList);
